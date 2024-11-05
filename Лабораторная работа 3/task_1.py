@@ -1,18 +1,10 @@
 # TODO Напишите функцию для поиска индекса товара
 def function(list, item):
-
-
     if item in list:
         return list.index(item)
     else:
         return None
-
-
-
-
-
 items_list = ['яблоко', 'банан', 'апельсин', 'груша', 'киви', 'банан']
-
 for find_item in ['банан', 'груша', 'персик']:
     index_item = function(list=items_list, item=find_item)  # TODO Вызовите функцию, что получить индекс товара
     if index_item is not None:
